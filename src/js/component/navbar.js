@@ -18,7 +18,7 @@ export const Navbar = () => {
 				</Link>
 				<div className="ml-auto">
 					<div className="dropdown">
-						<button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						<button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
 							Favorites <span className="counterFavorites">{store.favorites.length}</span>
 						</button>
 						<ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
@@ -27,7 +27,7 @@ export const Navbar = () => {
 									<li>Empty</li>
 								 ):(
 								store.favorites.map((favorite,index)=>(
-									<li key={index}  className="d-flex justify-content-between align-items-center">{favorite} <span className="iconTrash " onClick={(e) => {e.stopPropagation(); actions.deleteFavorite(index)}}>
+									<li key={index}  className="d-flex justify-content-between align-items-center">{favorite} <span className="iconTrash " onClick={() => actions.deleteFavorite(index)}>
 									<FaTrash />
 								  </span></li>
 								))
