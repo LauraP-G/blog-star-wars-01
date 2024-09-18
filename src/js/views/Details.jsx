@@ -19,16 +19,17 @@ export const Details = () => {
 
     return (
         <>
-            <div className="container details d-flex justify-content-center overlay">
-                <div className="d-flex flex-column align-items-center text-center">
-                    <div className="text-danger me-5">
-                        {type === 'people' ? <DetailsPeople /> : ''}
-                        {type === 'planets' ? <DetailsPlanets /> : ''}
-                        {type === 'starships' ? <DetailsVehicles /> : ''}
-                    </div>
-                </div>
-
+          <div className="container overlay">
+    <div className="d-flex justify-content-center">
+        <div className="container details d-flex flex-column align-items-center text-center">
+            <div className="text-danger me-5">
+                {type === 'people' ? <DetailsPeople /> : ''}
+                {type === 'planets' ? <DetailsPlanets /> : ''}
+                {type === 'starships' ? <DetailsVehicles /> : ''}
             </div>
+        </div>
+    </div>
+</div>
 
         </>
 
