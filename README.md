@@ -2,6 +2,8 @@
 
 Una aplicación web desarrollada con React que permite a los usuarios explorar personajes, planetas y vehículos del universo de Star Wars. Los usuarios pueden ver detalles específicos de cada elemento y añadir sus favoritos a una lista personal.
 
+ ![Página Principal](src/img/home.png)
+
 ## Características
 
 - Explora una lista de personajes, planetas y vehículos de Star Wars.
