@@ -96,9 +96,6 @@ Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local:
 3. Añade elementos a tu lista de favoritos usando el icono de corazón en cada tarjeta.
 4. Gestiona tus favoritos a través del menú desplegable en la barra de navegación.
 
-## Capturas de Pantalla
-
-(Agrega aquí imágenes de la interfaz de tu aplicación para mostrar su funcionamiento.)
 
 ## Mejoras Futuras
 
